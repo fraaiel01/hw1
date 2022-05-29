@@ -1,0 +1,132 @@
+    body {
+        margin:0px;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        height:400px;
+        width: 100%;
+        position:relative;
+        background-image: url(https://img.freepik.com/free-vector/3d-social-media-icons-background_52683-28863.jpg?t=st=1648637991~exp=1648638591~hmac=fb82fb0357dad00bdbde5ecad53626ef4914491327a79defb9396bab15dcfee3&w=900);
+        background-position: center;
+        background-size: cover;
+        }
+
+    #navigazione{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: rgba(0,0,0,.6);
+        height: 60px;
+        position:fixed;
+        top:0;
+        right:0;
+        left:0;
+        color: white;
+        font-family:'Gothic A1', sans-serif;
+    }
+
+    
+
+    #elementi {
+        display:flex;
+        justify-content:space-between;
+        padding-right: 4%;
+        width: 420px;
+    }
+
+    #elementi a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    @media (max-width: 500px) {
+        #elementi {
+        padding-left: 60px;
+        margin: 6px;
+        font-size: 12px;
+        }
+    }
+
+    @media (max-width: 700px) {
+        #elementi {
+        padding-left: 70px;
+        margin: 7px;
+        font-size: 18px;
+        }
+    }
+
+  
+
+    #titolo{
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        padding: 12px;
+    }
+
+    p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0% 25%;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        font-family: 'Poppins';
+        color: rgb(72, 139, 206);
+        border: 2px solid rgb(72, 139, 206); 
+        border-radius: 8px;
+        padding: 8px;
+        background-color: rgb(229, 228, 228);
+        font-weight: bolder;
+     }
+  
+    header h1{
+        position: relative;
+        font-weight: normal;
+        font-size: 70px; 
+        font-family: 'Kanit', sans-serif;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 3px 10px;
+        border-radius:10px;
+        border: 4px solid white; 
+        margin-left: 400px; 
+        
+    }
+
+    @media (max-width: 500px) {
+        header h1 {
+        font-size: 28px;
+        margin-left:auto;
+        margin-right: auto;
+        }
+    }
+
+    @media (max-width: 700px) {
+        header h1 {
+        font-size: 28px;
+        margin-left:auto;
+        margin-right: auto;
+        }
+    }
+
+    #overlay{
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;   
+        top: 0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+
+    #logout{
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    

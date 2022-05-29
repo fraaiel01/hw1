@@ -1,0 +1,87 @@
+
+body{
+    margin: 0;
+}
+
+#pagina{
+    height: 100vh;
+}
+
+section{
+    background-image: url(https://www.ilgiornalelocale.it/wp-content/uploads/2022/04/socialnetwork1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#riquadro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 6px;
+    background-color: rgba(1,181,214,255);
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 500px) {
+    #riquadro {
+        width: 60%;
+        font-size: 12px;
+
+    }
+}
+
+@media (max-width: 700px) {
+    #riquadro {
+        width: 60%;
+    }
+}
+
+input{
+    width: 270px;
+}
+
+.nome{
+    margin-bottom: 5%;
+}
+
+.cognome{
+    margin-bottom: 5%;  
+}
+
+.data{
+    margin-bottom: 5%;  
+}
+
+.email{
+    margin-bottom: 5%;  
+}
+
+.password{
+    margin-bottom: 5%;  
+}
+
+.conferma_password{
+    margin-bottom: 7%;  
+}
+
+.signup{
+    margin-top: 3%;  
+    margin-bottom: 4%;
+}
+
+.errore{
+    font-size: 13px;
+    color: red;
+    font-weight: bolder;
+    margin-bottom: 2%;
+    margin-top: 2px;
+
+}

@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+}
+
+#titolo{
+    font-size: 45px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.utente{
+    border: 3px solid ;
+    border-radius: 60px;
+    background-color:rgba(1,181,214,255) ;
+    width: 20%;
+    height: 10%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    background-image:url(https://www.ilgiornalelocale.it/wp-content/uploads/2022/04/socialnetwork1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.social{
+    width: 95%;
+    height: 90%;
+    padding-left: 15%;
+    margin-top: 4%;
+    
+}
+
+@media (max-width: 500px) {
+    .social {
+        display: none;
+    }
+}
+
+@media (max-width:700px) {
+    .social {
+        display: none;
+        
+    }
+}
+
+#zona_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    margin-right: 12%;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    width: 60%;
+    height: 88%;
+    padding: 3px;
+    background-color: rgba(1,181,214,255);
+    margin-top: 7%;
+    margin-left: 20%;
+}
+
+@media (max-width: 500px) {
+    #box {
+        width: 70%;
+        
+    }
+}
+
+@media (max-width: 700px) {
+    #box {
+        width: 60%;
+        
+    }
+}
+
+
+
+
+.email{
+    margin-bottom: 8%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.password{
+    margin-bottom: 14%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.submit{
+    margin-bottom: 14%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup{
+        color: black;
+        font-family: 'Poppins', sans-serif;
+}
+
+#social{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    input {
+        width: 97%;
+        
+    }
+}
+
+@media (max-width: 700px) {
+    input {
+        width: 97%;
+        
+    }
+}
+
+.errore_log{
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+    flex-direction: column;
+    width: 26%;
+    background-color:rgba(1,181,214,255);
+    border: 2px solid black;
+    border-radius: 6px;
+    color: red;
+    font-weight:bolder ;
+    height: 4%;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+
+
+
+
